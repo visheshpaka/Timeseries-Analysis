@@ -86,27 +86,6 @@ Scatter plots were generated to explore relationships between features such as P
 
 ---
 
-## Directory Structure
-```plaintext
-/TimeSeriesAnalysisProject
-  |-- acc_climbingdown_chest.csv
-  |-- acc_climbingdown_forearm.csv
-  |-- acc_climbingdown_head.csv
-  |-- acc_climbingdown_shin.csv
-  |-- acc_climbingdown_thigh.csv
-  |-- acc_climbingdown_upperarm.csv
-  |-- acc_climbingdown_waist.csv
-  |-- ... (similar files for other activities and body parts)
-  |-- analysis_scripts/
-  |    |-- feature_extraction.py
-  |    |-- entropy_complexity.py
-  |-- results/
-  |    |-- accelerometer_result_visibility_graph_chest.csv
-  |    |-- accelerometer_entropy_complexity_result_chest.csv
-```
-
----
-
 ## Future Scope
 - Integrate additional features like velocity and orientation data.
 - Extend analysis to real-time streaming data.
